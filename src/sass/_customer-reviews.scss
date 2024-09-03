@@ -54,12 +54,33 @@ body {
     min-width: 768px;
     padding: 0 16px;
   }
+
+  .top-picture {
+    width: 704px;
+    height: 327px;
+    object-fit: cover;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 8px;
+  }
 }
 
 @media (min-width: 1200px) {
   .container {
     min-width: 1200px;
     padding: 0 16px;
+  }
+
+  .customer-review-article {
+    position: relative;
+    background-image: url(/src/images/ice-cream-background-laptop.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 100%;
   }
 }
 /* ----- Mobile container width ----- */

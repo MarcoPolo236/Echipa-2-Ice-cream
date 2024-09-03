@@ -19,7 +19,7 @@ const buyButton = document.querySelector('.buy-now-btn.mobile-btn');
 const buyBackdrop = document.querySelector('.modal-buy-now');
 buyButton.addEventListener('click', toggleBuyModal);
 buyBackdrop.addEventListener('click', e => {
-  const target = e.target.closest('.menu-close-btn');
+  const target = e.target.closest('.modal-buy-now-menu-close-btn');
   if (!target) {
     return;
   }
