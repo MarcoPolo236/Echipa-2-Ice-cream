@@ -26,6 +26,27 @@ body {
     width: 480px;
     padding: 0 100px;
   }
+
+  .top-picture {
+    width: 440px;
+    height: 204px;
+    object-fit: cover;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 8px;
+  }
+
+  .customer-review-article {
+    position: relative;
+    background-image: url(/src/images/480-background.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 @media (min-width: 768px) {
